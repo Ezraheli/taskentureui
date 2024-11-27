@@ -258,5 +258,21 @@ main{
 
 /* Main Footer Content */
 .footer-section{
-    background: linear-gradient(#401F71, #f39c12);
+    background: #401F71;
+}
+
+/* Styling for the Contact Us page */
+.card-body a {
+    color: var(--bg-color); /* Default link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.card-body a:hover {
+    color: var(--primary-content); /* Hover color */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.card-body a:active {
+    color: var(--bg-color); /* Clicked (active) color */
 }
