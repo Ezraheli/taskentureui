@@ -258,5 +258,5 @@ main{
 
 /* Main Footer Content */
 .footer-section{
-    background: var(--bg-color);
+    background: linear-gradient(#401F71, #f39c12);
 }
